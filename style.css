@@ -1,0 +1,14 @@
+.nav-link:hover {
+  color: green !important;
+}
+
+.section-2 p {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: green !important;
+}
