@@ -1,3 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  padding: 0;
+}
+
 .nav-link:hover {
   color: green !important;
 }
@@ -101,4 +115,101 @@ a:hover {
   .img-rounded-lg-up {
     border-radius: 50%;
   }
+}
+
+/* repair */
+
+.claim {
+  background-color: #dcdcdc !important;
+
+  padding: 20px !important;
+  font-family: "Noto Sans", sans-serif;
+
+  width: 100% !important;
+}
+
+.claimimage {
+  height: 258px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.cardss {
+  max-width: 63% !important;
+  margin: auto !important;
+}
+.please {
+  margin: auto;
+  background-color: #fdfce0 !important;
+  border: 1px solid black;
+  width: 60%;
+
+  padding: 20px 7px;
+
+  margin-top: 10px !important;
+  color: black !important;
+}
+
+.upper {
+  width: 60%;
+  margin: auto;
+  padding: 20px 0;
+  margin-top: 10px !important;
+}
+.custom-button {
+  background-color: #900d06 !important;
+  border: none;
+}
+.custom-button:hover {
+  background-color: #af1007 !important;
+}
+@media (max-width: 768px) {
+  .cardss {
+    max-width: 95% !important;
+  }
+}
+
+.cardss {
+  background-color: #af1007;
+}
+
+@media (max-width: 400px) {
+  .upper {
+    width: 83%;
+    margin: auto;
+    padding: 20px 0;
+    margin-top: 10px !important;
+  }
+
+  .please {
+    margin: auto;
+
+    border: 1px solid black;
+    width: 83%;
+
+    padding: 20px 7px;
+
+    margin-top: 10px !important;
+  }
+}
+
+.upper {
+  background-color: #af1007;
+}
+
+.please {
+  background-color: #af1007;
+}
+
+.navbar-toggler {
+  font-size: 0.75rem !important;
+
+  border: 0 !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  border: 0 !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
