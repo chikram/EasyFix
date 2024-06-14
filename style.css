@@ -98,6 +98,10 @@ a:hover {
     box-shadow: 0 0px 4px 0 rgba(255, 255, 255, 1);
     background-color: #850903 !important;
   }
+  .find-btn {
+    box-shadow: 0 0px 4px 0 rgba(255, 255, 255, 1);
+    background-color: gray !important;
+  }
   .reg-btn span {
     font-size: 9px !important;
   }

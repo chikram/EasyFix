@@ -94,7 +94,6 @@
         </div>
       </nav>
     </header>
-
     <section>
       <div>
         <img
@@ -103,42 +102,52 @@
           class="claimimage img-fluid"
         />
       </div>
+
       <div class="claim">
-        <h1 class="text-center hide-on-small">Claim Insurance</h1>
+        <h1 class="text-center hide-on-small">Find Repair Shop</h1>
       </div>
     </section>
 
-    <section class="mb-5">
+    <section class="mb-4">
       <div
         class="d-flex justify-content-center align-items-center text-center d-block d-md-none rounded-2 upper"
-        style="background-color: #af1007 !important"
+        style="background-color: gray !important"
       >
         <img
-          src="assest/claim-1400w.png"
+          src="./assest/repair-shop-1400w.png"
           class="img-fluid me-3"
           alt="Claim Insurance"
           style="max-height: 56px"
         />
-        <button
-          type="button"
-          class="btn btn-lg rounded-2 claim-btn custom-button text-white"
-        >
-          Claim Insurance
+        <button type="button" class="btn btn-lg rounded-2 find-btn">
+          Find Repair Shop
         </button>
       </div>
-
+      <div class="d-flex justify-content-center mt-3 mb-3">
+        <a
+          class="btn btn-lg text-center text-white"
+          style="background-color: #af1007"
+          href="/repair.html"
+        >
+          Request Auto Repair Estimations</a
+        >
+      </div>
       <div class="please rounded-1 d-block d-md-none">
-        Please Search for insurance company and enter form below
+        EasyFix helps you get repair estimations from auto repair shops. Please
+        enter details below.
       </div>
 
       <div class="container mt-5">
-        <div class="card cardss mb-4 rounded-4 border-0 shadow">
+        <div
+          class="card cardss mb-4 rounded-4 border-0 shadow"
+          style="background-color: gray !important"
+        >
           <div class="card-body">
             <form class="p-4">
               <div class="row">
                 <h4 class="text-center" style="color: white">
-                  Please search for insurance company and enter form below to
-                  submit claim.
+                  EasyFix helps you to find Repairing Shop. Please enter details
+                  below.
                 </h4>
                 <div class="col-md-6 mb-3">
                   <div class="form-floating">
@@ -154,7 +163,9 @@
                       <option value="2" style="color: #af1007">Two</option>
                       <option value="3" style="color: #af1007">Three</option>
                     </select>
-                    <label for="floatingSelect1">Insurance Company *</label>
+                    <label for="floatingSelect1"
+                      >Select Insurance (if applicable) *</label
+                    >
                   </div>
                 </div>
                 <div class="col-md-6 mb-3">
@@ -171,29 +182,12 @@
                       <option value="2" style="color: #af1007">Two</option>
                       <option value="3" style="color: #af1007">Three</option>
                     </select>
-                    <label for="floatingSelect2">Auto Brand *</label>
+                    <label for="floatingSelect2">District*</label>
                   </div>
                 </div>
               </div>
 
               <div class="row">
-                <div class="col-md-6 mb-3">
-                  <div class="form-floating">
-                    <select
-                      class="form-select"
-                      id="floatingSelect1"
-                      aria-label="Floating label select example"
-                    >
-                      <option selectedstyle="color: #AF1007;">
-                        Please Select
-                      </option>
-                      <option value="1" style="color: #af1007">One</option>
-                      <option value="2" style="color: #af1007">Two</option>
-                      <option value="3" style="color: #af1007">Three</option>
-                    </select>
-                    <label for="floatingSelect1">Model *</label>
-                  </div>
-                </div>
                 <div class="col-md-6 mb-3">
                   <div class="form-floating">
                     <select
@@ -206,110 +200,39 @@
                       <option value="2">Two</option>
                       <option value="3">Three</option>
                     </select>
-                    <label for="floatingSelect2">Year *</label>
+                    <label for="floatingSelect2">City/Province*</label>
                   </div>
                 </div>
-              </div>
-
-              <div class="form-floating mb-3">
-                <textarea
-                  class="form-control"
-                  placeholder="Leave a comment here"
-                  id="floatingTextarea"
-                ></textarea>
-                <label for="floatingTextarea">Accident Details</label>
-              </div>
-
-              <div class="form-floating mb-3">
-                <textarea
-                  class="form-control"
-                  placeholder="Leave a comment here"
-                  id="floatingTextarea"
-                ></textarea>
-                <label for="floatingTextarea">Damage Details</label>
-              </div>
-              <div class="row mb-3">
-                <div class="col-md-6">
-                  <div class="form-floating mb-3">
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="floatingInput1"
-                      placeholder="name@example.com"
-                    />
-                    <label for="floatingInput1"
-                      >Plate/Registration Number</label
-                    >
-                  </div>
-                </div>
-                <div class="col-md-6">
+                <div class="col-md-6 mb-3">
                   <div class="form-floating">
                     <input
                       type="text"
                       class="form-control"
-                      id="floatingPassword1"
-                      placeholder="Password"
+                      id="txt"
+                      aria-describedby="passwordHelpBlock"
+                      placeholder="Postal Code"
                     />
-                    <label for="floatingPassword1">Accident Location</label>
-                  </div>
-                </div>
-              </div>
-              <div class="row mb-3">
-                <div class="col-md-6">
-                  <div class="form-floating mb-3">
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="floatingInput2"
-                      placeholder="name@example.com"
-                    />
-                    <label for="floatingInput2">First Name</label>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-floating">
-                    <input
-                      type="password"
-                      class="form-control"
-                      id="floatingPassword2"
-                      placeholder="Password"
-                    />
-                    <label for="floatingPassword2">Last Name</label>
-                  </div>
-                </div>
-              </div>
-              <div class="row mb-3">
-                <div class="col-md-6">
-                  <div class="form-floating mb-3">
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="floatingInput3"
-                      placeholder="name@example.com"
-                    />
-                    <label for="floatingInput3">Email address</label>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-floating">
-                    <input
-                      type="password"
-                      class="form-control"
-                      id="floatingPassword3"
-                      placeholder="Password"
-                    />
-                    <label for="floatingPassword3">Password</label>
+                    <label for="txt">Postal Code</label>
                   </div>
                 </div>
               </div>
 
+              <!-- <div class="form-floating mb-3">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Accident Details</label>
+              </div> -->
+
               <div class="text-center">
                 <button
-                  style="background-color: #0e8e00 !important"
+                  style="
+                    background-color: #1d7ca8 !important;
+                    padding-left: 50px;
+                    padding-right: 50px;
+                  "
                   type="button"
-                  class="btn btn-lg rounded-2 btn-success"
+                  class="btn rounded-2 btn-success"
                 >
-                  Next - Upload Photos
+                  Search
                 </button>
               </div>
             </form>
