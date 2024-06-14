@@ -66,33 +66,37 @@ a:hover {
     background-color: #af1007 !important;
   }
   .card-1 h2 {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
-      0 6px 20px 0 rgba(255, 255, 255, 1);
+    box-shadow: 0 0px 4px 0 rgba(255, 255, 255, 1);
     background-color: #850903 !important;
   }
   .card-2 {
     background-color: rgb(85, 202, 85) !important;
   }
   .card-2 h2 {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
-      0 6px 20px 0 rgba(255, 255, 255, 1);
+    box-shadow: 0 0px 4px 0 rgba(255, 255, 255, 1);
     background-color: rgb(85, 202, 85) !important;
   }
   .card-3 {
     background-color: gray !important;
   }
   .card-3 h2 {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
-      0 6px 20px 0 rgba(255, 255, 255, 1);
+    box-shadow: 0 0px 4px 0 rgba(255, 255, 255, 1);
     background-color: gray !important;
   }
   .card-4 {
     background-color: #007bff !important;
   }
   .card-4 h2 {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
-      0 6px 20px 0 rgba(255, 255, 255, 1);
+    box-shadow: 0 0px 4px 0 rgba(255, 255, 255, 1);
     background-color: #007bff !important;
+  }
+  .repair-btn {
+    box-shadow: 0 0px 4px 0 rgba(255, 255, 255, 1);
+    background-color: rgb(85, 202, 85) !important;
+  }
+  .claim-btn {
+    box-shadow: 0 0px 4px 0 rgba(255, 255, 255, 1);
+    background-color: #850903 !important;
   }
   .reg-btn span {
     font-size: 9px !important;
@@ -212,4 +216,9 @@ a:hover {
   border: 0 !important;
   outline: none !important;
   box-shadow: none !important;
+}
+@media (max-width: 767.98px) {
+  .hide-on-small {
+    display: none;
+  }
 }
